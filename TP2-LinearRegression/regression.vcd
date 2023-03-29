@@ -1,0 +1,75 @@
+$date
+	Mon Mar 27 11:44:38 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module stimulus $end
+$var wire 1 ! r $end
+$var wire 32 " predict [31:0] $end
+$var reg 16 # features [15:0] $end
+$var reg 8 $ n_param [7:0] $end
+$var reg 1 % r0 $end
+$scope module uut $end
+$var wire 16 & features [15:0] $end
+$var wire 8 ' n_param [7:0] $end
+$var wire 1 % r0 $end
+$var wire 32 ( theta0 [31:0] $end
+$var wire 16 ) theta1 [15:0] $end
+$var wire 32 * tmp1 [31:0] $end
+$var wire 1 ! r $end
+$var wire 32 + predict [31:0] $end
+$scope module adder1 $end
+$var wire 32 , e1 [31:0] $end
+$var wire 1 % r0 $end
+$var wire 32 - s [31:0] $end
+$var wire 1 ! r1 $end
+$var wire 32 . e2 [31:0] $end
+$upscope $end
+$scope module mul1 $end
+$var wire 16 / e1 [15:0] $end
+$var wire 16 0 e2 [15:0] $end
+$var wire 32 1 s [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 1
+b1001110001000 0
+b0 /
+b0 .
+b10011100010000 -
+b10011100010000 ,
+b10011100010000 +
+b0 *
+b1001110001000 )
+b10011100010000 (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+b10011100010000 "
+0!
+$end
+#20000
+b100110011100111100000 "
+b100110011100111100000 +
+b100110011100111100000 -
+b1 $
+b1 '
+b100110001001011010000 *
+b100110001001011010000 .
+b100110001001011010000 1
+b11111010 #
+b11111010 &
+b11111010 /
+#40000
